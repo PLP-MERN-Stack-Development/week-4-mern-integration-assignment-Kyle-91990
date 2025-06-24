@@ -1,79 +1,45 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19843271&assignment_repo_type=AssignmentRepo)
-# MERN Stack Integration Assignment
+# MERN Blog App
 
-This assignment focuses on building a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that demonstrates seamless integration between front-end and back-end components.
+A full-stack MERN (MongoDB, Express.js, React, Node.js) blog application with user authentication, CRUD operations for blogs, image uploads, a rich text editor, and search functionality.
 
-## Assignment Overview
+## Features
 
-You will build a blog application with the following features:
-1. RESTful API with Express.js and MongoDB
-2. React front-end with component architecture
-3. Full CRUD functionality for blog posts
-4. User authentication and authorization
-5. Advanced features like image uploads and comments
+- **User Authentication**: Users can register, login, and manage their blog posts.
+- **Create, Edit, and Delete Blog Posts**: Registered users can create, edit, and delete their own blog posts.
+- **Image Upload**: Users can upload images for their blog posts.
+- **Rich Text Editor**: A WYSIWYG editor for creating and formatting blog content.
+- **Search Functionality**: Users can search for specific blog posts.
 
-## Project Structure
+## Technologies Used
 
-```
-mern-blog/
-├── client/                 # React front-end
-│   ├── public/             # Static files
-│   ├── src/                # React source code
-│   │   ├── components/     # Reusable components
-│   │   ├── pages/          # Page components
-│   │   ├── hooks/          # Custom React hooks
-│   │   ├── services/       # API services
-│   │   ├── context/        # React context providers
-│   │   └── App.jsx         # Main application component
-│   └── package.json        # Client dependencies
-├── server/                 # Express.js back-end
-│   ├── config/             # Configuration files
-│   ├── controllers/        # Route controllers
-│   ├── models/             # Mongoose models
-│   ├── routes/             # API routes
-│   ├── middleware/         # Custom middleware
-│   ├── utils/              # Utility functions
-│   ├── server.js           # Main server file
-│   └── package.json        # Server dependencies
-└── README.md               # Project documentation
-```
+- **Frontend:**
+  - React
+  - Redux (for state management)
+  - Axios (for API requests)
+  - Draft-js (for the rich text editor)
+  - React Router (for routing)
+  - Other libraries as needed (e.g., image upload library)
 
-## Getting Started
+- **Backend:**
+  - Node.js
+  - Express.js
+  - MongoDB (for database storage)
+  - Mongoose (for MongoDB ODM)
+  - Bcrypt and jwt (for authentication)
+  - Multer (for handling file uploads)
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Follow the setup instructions in the `Week4-Assignment.md` file
-4. Complete the tasks outlined in the assignment
+## Screenshots
+ <h2>Home</h2>
+<img width="949" alt="home" src="https://github.com/vaibhv232/mern-blog-app/assets/108869784/8e19a677-5547-4183-95c4-ab48f86f77d8">
+<h2>Blogs</h2>
+<img width="947" alt="blogs" src="https://github.com/vaibhv232/mern-blog-app/assets/108869784/0a4c5c61-1bff-47ab-8842-7b2d02ffcde7">
+<h2>Write Blog</h2>
+<img width="946" alt="Screenshot 2023-09-06 011329" src="https://github.com/vaibhv232/mern-blog-app/assets/108869784/749f6316-09cc-4607-a697-7b765d3222dc">
+<h2>Profile Update</h2>
+<img width="947" alt="profile_update" src="https://github.com/vaibhv232/mern-blog-app/assets/108869784/78c7a7c6-77a4-416e-8ad3-41000b5a171f">
 
-## Files Included
+                                                                  ***
 
-- `Week4-Assignment.md`: Detailed assignment instructions
-- Starter code for both client and server:
-  - Basic project structure
-  - Configuration files
-  - Sample models and components
 
-## Requirements
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git
 
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete both the client and server portions of the application
-2. Implement all required API endpoints
-3. Create the necessary React components and hooks
-4. Document your API and setup process in the README.md
-5. Include screenshots of your working application
-
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [Mongoose Documentation](https://mongoosejs.com/docs/) 
